@@ -1,9 +1,11 @@
 if game.Players.LocalPlayer.UserId == 688796609 then
 print("Access Enabled")
 else
-game.Players.LocalPlayer:Kick("You're not Whitelisted! (join dsc.gg/rcm ~ to Buy!)")
+game.Players.LocalPlayer:Kick("You're not Whitelisted! (Join dsc.gg/infinityx to buy!)")
 print("Denied")
 end
+
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Infinity X Loaded!", Text = "Join Discord: dsc.gg/infinityx", Icon = "rbxassetid://6701820771"})
 
 --[[
     Recorder,AimbotNotBoutToGetExposed
